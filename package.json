@@ -1,9 +1,17 @@
 {
   "name": "react-rfid-input-reader",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": false,
   "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okayosilva/react-rfid-input-reader"
+  },
+  "homepage": "https://github.com/okayosilva/react-rfid-input-reader#readme",
+  "bugs": {
+    "url": "https://github.com/okayosilva/react-rfid-input-reader/issues"
+  },
   "main": "./dist/main.js",
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.ts",
