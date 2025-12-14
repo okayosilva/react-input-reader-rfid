@@ -1,6 +1,6 @@
 {
   "name": "react-input-reader-rfid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "type": "module",
   "main": "./dist/main.js",
@@ -13,7 +13,7 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-   "build:lib": "tsup src/lib/main.ts --format cjs,esm --dts --clean --minify --tsconfig tsconfig.lib.json",
+    "build:lib": "tsup src/lib/main.ts --format cjs,esm --dts --clean --minify --tsconfig tsconfig.lib.json",
     "build:app": "tsc && vite build"
   },
   "peerDependencies": {
