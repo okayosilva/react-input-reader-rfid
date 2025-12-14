@@ -1,6 +1,6 @@
 {
   "name": "react-rfid-input-reader",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "private": false,
   "license": "MIT",
   "type": "module",
@@ -15,8 +15,17 @@
   "main": "./dist/main.js",
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/main.d.ts",
+      "import": "./dist/main.mjs",
+      "require": "./dist/main.js"
+    }
+  },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE.md"
   ],
   "scripts": {
     "dev": "vite",
